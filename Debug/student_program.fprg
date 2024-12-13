@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="factorial_semester_5"/>
+        <attribute name="authors" value="user"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-11 11:35:59 PM"/>
+        <attribute name="created" value="dXNlcjtERVNLVE9QLUo2VUhQUko7MjAyNC0xMC0xMTsxMToyMTowMSBQTTsyODEy"/>
+        <attribute name="edited" value="dXNlcjtERVNLVE9QLUo2VUhQUko7MjAyNC0xMC0xMTsxMTozNTo1OSBQTTsxOzI5Mzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number, answer, i" type="Integer" array="False" size=""/>
+            <input variable="number"/>
+            <assign variable="answer" expression="1"/>
+            <for variable="i" start="1" end="number" direction="inc" step="1">
+                <assign variable="answer" expression="answer * i"/>
+            </for>
+            <output expression="answer" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
